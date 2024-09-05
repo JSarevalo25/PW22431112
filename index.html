@@ -1,47 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Mi pagina HTML</title>
 </head>
 <body>
-    <header>
-         <h1>de que trata la pagina</h1>
-         <img src="Imagenes/logo.png" alt="logo" width="100">
-        Menu de Navegacion
-         <nav>  
-            <ol>
-                <li>Opcion1</li>
-                <li>Opcion2</li>
-                <li>Opcion3</li>
-            </ol>
-         </nav>
-         <form action="">
-            Barra de busqueda
-            <input type="text"><input type = "search">
-         </form>
-    </header>
-    <section>
-        <section> esto es incorrecto</section>
-    </section>
-    <section>
-        Informacion
-    </section>
-    <main>
-    <section>
-        <article>Informacion</article>
-        <article>texto</article>
-        <article>audio</article>
-    </section>
-    </main>
-    <article></article>
-    <aside>Contenido tangencial</aside>
-    <footer>Informacion de contacto <br>
-        &copy; &Ntilde; &Aacute; <br>
-        Otros enlaces
+    Texto dentro <br>
+    de la pagina
+    <p>
+        Texto dentro 
+        de la pagina
+    </p>
+    <hr>
+    <h1>Encabezado</h1>
+    <h2>Encabezado</h2>
+    <h3>Encabezado</h3>
+    <h4>Encabezado</h4>
+    <h5>Encabezado</h5>
+    <h6>Encabezado</h6>
+    <a href="https://culiacan.tecnm.mx" target="_blank">Clic para abrir</a>
+    <p></p>
+    Lista desordenada <br>
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
 
-    </footer>
+    </ul>
+    Lista ordenada <br>
+    <ol>
+        <li>elemento </li>
+        <li>elemento </li>
+        <li>elemento </li>
+
+    </ol>
+    <br>
+    <table>
+        <caption>Titulo de la tabla</caption>
+        <thead>
+            <tr>
+                <th> Columna 1 </th>
+                <th> Columna 2 </th>
+                <th> Columna 3 </th>
+                <th colspan="2"> Columna 4 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contenido 1</td>
+                <td>Contenido 2</td>
+                <td>Contenido 3</td>
+                <td> Contenido 4 </td>
+                <td> Contenido 5 </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <img src="Imagenes/logo.png" alt="Logo" width="415">
+    <br>
+    <!-- Formularios con Input -->
+    <form action="index.html" method="post">
+        <label for = '' >Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre Completo" >
+        <br>
+        <input type="password" name="clave"  placeholder="Tu Clave">
+        <br>
+        <input type="number" name=""><br>
+        <input type="date" name=""> <br>
+        <input type="color" name=""> <br>
+        <input type="file" name="">  <br>
+        <input type="time" name=""> <br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
