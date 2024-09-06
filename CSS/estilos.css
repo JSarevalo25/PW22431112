@@ -1,24 +1,46 @@
-body{
+body {
     border: 1px solid red;
     font-size: 16px;
     max-width: 1024px;
     margin: 0px auto;
 }
 
-header nav ol{
+header nav ol {
     text-align: center;
-    
+
 }
-header nav ol li{
+
+header img {
+    border-radius: 100px;
+    width: 50px;
+}
+
+header nav ol li {
     border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 1px black;
     display: inline-block;
     margin-right: 25px;
     color: white;
     background: blue;
     /*padding : 12px */
-    padding: 12px 26px;
+    padding: 10px 26px;
 }
-header nav ol li:hover{
- background:white;
- color: blue
+
+header nav ol li:hover {
+    background: white;
+    box-shadow: 0px 0px 0px white;
+    color: blue
+}
+
+main section article {
+    border: 1px solid red;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.87%;
+    
+}
+footer{
+    border: 1px solid blue;
+    width: 30%;
 }
