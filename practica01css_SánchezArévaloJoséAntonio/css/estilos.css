@@ -1,0 +1,82 @@
+body{
+    font-size: 16px; /* 1 em */
+    margin: 0px auto;
+    max-width: 1024px;
+    --color-fondo-header:#D1E3EE;
+    --color-fondo-nav: #026DC6;
+}
+header{
+    background: var(--color-fondo-header);
+}
+header nav{
+    background: var(--color-fondo-nav);
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+}
+header nav form{
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background: green;
+    border:1 solid green;
+    color: white;
+}
+header nav ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 20px; 
+}
+#logo{
+    margin-top: -150px;
+}
+#Seccion01{
+    margin-top: 15px;
+}
+#Seccion01 article{
+    text-align: center;
+}
+#Seccion01 article img{
+    border: 5px solid rgba(150,150,150,0.5);
+    width: 98%;
+}
+#Seccion02 article{
+    vertical-align: top;
+    width: 32.8%;
+    display: inline-block;
+}
+#Seccion02 article input[type="submit"]{
+    background:white;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 35%;
+ 
+}   
+.otraSeccion{
+    font-size: 1.5em;
+}
+.unaSeccion{
+    font-size: 4.5em;  /*4.5 x 16 px*/  
+}
+
+.nito{
+    font-weight: bold;
+}
+footer{
+    background:black;
+    margin-top: 20px;
+}
+footer article{
+    display: inline-block;
+    height: 100px;
+    padding: 30px;
+    color:white;
+    width: 32.8;
+}
