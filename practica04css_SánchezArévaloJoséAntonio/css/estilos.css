@@ -1,0 +1,144 @@
+body{
+    max-width: 1308px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+header #Nav01{
+    width: 100%;
+}
+header #Nav01 ul{
+    margin-bottom: -5px;
+    text-align: right;
+    margin-right: 10px;
+   
+}
+header #Nav01 ul li{
+    display: inline-block;
+    padding: 2px;
+
+}
+#firstbikelogo{
+    margin-left: 10px;
+    
+}
+header #Nav02 {
+    width: 100%;
+}
+header #Nav02 ul{
+    list-style: none;
+    padding: 0px;
+}
+header #Nav02 ul li{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 15.2px;
+}
+#hr01{
+   border-style: dashed;
+   width: 100%;
+   margin-top: -70px; 
+   color: #aaa;
+}
+#seccion01 article{
+    display: inline-block;
+    vertical-align: top;
+}
+#secc01art01{
+    width: 55%;
+}
+#secc01art02{
+    width: 44%;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: -60px;
+}
+#hr02{
+    border-style: dashed;
+    color: #aaa;
+    margin-left: 10px;
+    width: 97%;
+}
+#secc01art01 span{
+    padding: 5px;
+}
+
+#secc01art01 nav ul{
+    list-style: none;
+    padding: 0;
+    
+}
+#secc01art01 p{
+    padding: 10px;
+}
+#secc01art01 nav ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+footer nav{
+    width: 100%;
+}
+footer nav ul{
+    padding: 0;
+}
+footer nav ul li{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 10px;
+}
+footer article:not(#footerart05){
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#footerart05{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 20px;
+}
+#buyrosa{
+    top: -90px;
+    right: -870px;
+    position: relative;
+    
+}
+#gotoshopblue{
+    top: -160px;
+    right: -860px;
+    position: relative;
+}
+
+
+#años{
+  position: relative;
+  top: -110px;
+  float: left;
+}
+.letraMediana{
+    font-size: 1.25em;
+}
+.letraMedianaCopy{
+    font-size: 1.33em;
+}
+.letraGrande{
+    font-size: 5.4em;
+
+}
+.colorVerde{
+    color: #84f454;
+}
+.gray{
+    color: gray;
+}
+.tipoletraCopy{
+    font-family: 'Times New Roman';
+}
+.nito{
+    font-weight: bold;
+}
