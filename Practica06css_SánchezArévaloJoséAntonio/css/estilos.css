@@ -1,0 +1,196 @@
+/*Alumno: Sánchez Arévalo José Antonio*/
+body{
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0px auto;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    display: grid;
+    grid-template: 
+    "header header"
+    "section01 section01"
+    "principal principal"
+    "footer footer";
+}
+
+.contenedor header button{
+    margin-left: 8px;
+    font-size: 1em;
+}
+
+.contenedor header img{
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 6%;
+
+    
+}
+
+input[type="search"]{
+    width: 60%;
+    height: 45px;
+    margin-left: 20%;
+    border-radius: 5px;
+   
+}
+
+.section01 button[type="submit"]{
+    width: 40px;
+    height: 41px;
+    position: relative;
+    left: 600px;
+    top: -43px;
+    border-radius: 5px;
+    background-color: white;
+    border:none;
+    font-size: 24px;
+}
+
+.header{
+    grid-area: header;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    
+}
+
+.section01{
+    display: grid;
+    grid-area: section01;
+    grid-template-columns: 1,1fr;
+    background: #e0dcf4;
+    padding: 40px 105px;
+}
+
+.section01 span{
+    padding: 20px;
+}
+
+.principal {
+    display: grid;
+    grid-area: principal;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px 100px;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    gap: 20px;  
+    
+}
+
+.billing{
+    width: 50px;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 10px 10px;
+    
+}
+
+.footer{
+    grid-area: footer;
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 50px 70px;
+}
+
+.contenedor .footer img{
+    width: 45px;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-bottom: 10px;
+}
+
+#headerspan01{
+    vertical-align: middle;
+}
+
+#headerspan02{
+    vertical-align: middle;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.letraGrande{
+    font-size: 3em;
+}
+
+.letrachica{
+    font-size: 0.8em;
+}
+
+.center{
+    text-align: center;
+}
+
+.verticalcenter{
+    vertical-align: middle;
+}
+
+.branches{
+    width: 60px;
+    padding-right: 20px;
+}
+
+.abstract{
+    width: 80px;
+    padding-right: 15px;
+    margin-left:-5px ;
+}
+
+.account{
+    width: 70px;
+    padding-right: 20px;
+}
+
+.auth{
+    width: 50px;
+    padding-right: 30px;
+}
+
+.billing{
+    width: 50px;
+    padding-right: 30px;
+    margin-left: 10px;
+}
+
+.projects{
+    width: 60px;
+    padding-right: 20px;
+}
+
+.azul{
+    color: blue;
+}
+
+.contenedor footer article:nth-child(5){
+    margin-top: 100px;
+    width: 110%;
+}
+
+#btn1{
+    border-radius: 5px;
+    background: rgb(34, 34, 34);
+    color: white;
+    margin-left: 41%;
+    padding: 6px 15px;
+    font-size: 1em;
+    border: 1px solid rgb(134, 133, 133);
+}
+
+#btn2{
+    border-radius: 5px;
+    background: rgb(4, 4, 196);
+    color: white;
+    padding: 6px 20px;
+    border: 1px solid rgb(10, 10, 163)
+}
+
+
